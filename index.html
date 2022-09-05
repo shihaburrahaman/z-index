@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z-Index</title>
+
+    <style>
+        .square-shape1{
+            width:250px;
+            height: 250px;
+            background: url(img/z-index.jpg);
+            position: relative;
+            background-repeat: no-repeat;
+            background-size: cover;
+            z-index: 5;
+
+
+        }
+        .square-shape2{
+            width:250px;
+            height: 250px;
+            background: url(img/z-index\ 2.jpg);
+            position: relative;
+            background-repeat: no-repeat;
+            background-size: cover;
+            top: -25px;
+            z-index: 5px;
+            left: 150px;
+           
+
+
+        }
+        .square-shape3{
+            width:250px;
+            height: 250px;
+            background: url(img/z-index\ 3.jpg);
+            position: relative;
+            background-repeat: no-repeat;
+            background-size: cover;
+            top: -60px;
+            z-index: 20px;
+            left: 300px;
+
+        }
+       
+       
+    </style>
+</head>
+<body>
+        <div class="square-shape1"> 
+        <h2 style="text-align:center; color:white;"><i>This is first picture<i/></h2>
+        <!-- <img src="img/1.jpg" alt="">  -->
+        
+    </div>
+    <div class="square-shape2">
+        <h2 style="text-align:center; color:red;"><i>This is second picture</i></h2>
+    </div>
+    <div class="square-shape3">
+        <h2 style="text-align:center; color:white;"><i></i>This is Third picture</i></h2>
+    </div>
+ 
+</body>
+</html>
